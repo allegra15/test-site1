@@ -2,36 +2,62 @@
 Site  name v1
 */
 
+body {font-family: "PT Sans", Helvetica, sans-serif;
+
+}
+
+/* LINKS */
+a:link {
+	text-decoration: none;
+	color: #17367F;
+}
+
+a:hover {
+	color: #2E6CFF;
+}
+
+a:visited {
+	color: gray;
+}
+
+
+#page {
+	background-color:  #D0D0D0;
+
+}
+
 #content{
 	max-width: 960px;
 	margin: 0 auto;
+	padding: 10px;
+	background-color: white;
+
 }
 
-h1{
-	font-family: Geneva, Tahoma, sans-serif;
+h1, h2, h3 {
+	font-family: "PT Serif", "Calisto MT", serif;
 	font-weight: bold;
-	font-size: 42px;
-	color: #2c7fb8;
 }
 
 p{
-	font-family: Palatino, Linotype, serif;
-	font-size: 16px;
+	font-size: 100%;
+	line-height: 1.4em;
+}
+
+h1{
+	font-size: 300%;
+	color: #17367F;
 }
 
 h2{
-	font-family: Geneva, Tahoma, sans-serif;
-	font-size: 18;
+	font-size: 150%;
+	color: #08849F;
 }
 
 h3{
-	font-family: Geneva, Tahoma, sans-serif;
-	font-size: 16;
+	font-size: 112.5%;
+	color: #08849F;
 }
-
 ul{
 	list-style-type: circle;
-}
-
-a:hover{color: blue;
 }
