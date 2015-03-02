@@ -22,17 +22,74 @@ a:visited {
 
 
 #page {
-	background-color:  #D0D0D0;
-
-}
-
-#content{
-	max-width: 960px;
+	max-width: 800px;
 	margin: 0 auto;
 	padding: 10px;
-	background-color: white;
+}
+
+#content {
+	margin-top: 30px;
+}
+
+.subhead{ 
+	font-size: 150%;
+	margin-top: 0px;
+}
+
+.byline {
+	font-size: 90%;
+	font-style: italic;
+}
+
+#intro {
 
 }
+
+#viz1 {
+	margin-top: 30px;
+}
+
+.viz_head {
+	font-weight: bold;
+	font-size: 112.5%;
+	color: #08849F;
+	margin-bottom: 2px;
+}
+
+#homes_viz {
+	width: 800px;
+    height: 600px;
+    border: 2px solid black;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#body {
+	margin-top: 40px;
+
+}
+
+#box1 {
+	width: 300px;
+	height: 300px;
+	border: 2px solid black;
+	float: right;
+	margin-left: 10px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	
+}
+
+#box2 {
+	width: 400px;
+	height: 300px;
+	border: 2px solid black;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+/* HEADING STYLES */
 
 h1, h2, h3 {
 	font-family: "PT Serif", "Calisto MT", serif;
@@ -47,6 +104,7 @@ p{
 h1{
 	font-size: 300%;
 	color: #17367F;
+	margin-bottom: 0px;
 }
 
 h2{
@@ -57,7 +115,3 @@ h2{
 h3{
 	font-size: 112.5%;
 	color: #08849F;
-}
-ul{
-	list-style-type: circle;
-}
