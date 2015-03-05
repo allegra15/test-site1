@@ -3,47 +3,70 @@ Site  name v1
 */
 
 body {font-family: "PT Sans", Helvetica, sans-serif;
-
-}
-
-/* LINKS */
-a:link {
-	text-decoration: none;
-	color: #17367F;
-}
-
-a:hover {
-	color: #2E6CFF;
-}
-
-a:visited {
-	color: gray;
 }
 
 
 #page {
-	max-width: 800px;
+	max-width: 1080px;
 	margin: 0 auto;
-	padding: 10px;
 }
 
-#content {
-	margin-top: 30px;
+header {
+	position: relative;
+	width: 1080px;
+	height: 531px;
+	margin-bottom: 10px;
+}
+
+#header_image {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+
+}
+
+#title {
+	width: 500px; 
+	height: 531px;
+	position: absolute;
+	top: 0px;
+	left: 5px;
+	z-index: 100;
 }
 
 .subhead{ 
 	font-size: 150%;
+	font-weight: normal;
 	margin-top: 0px;
+	position: relative;
+	left: 100px;
 }
 
 .byline {
-	font-size: 90%;
+	font-size: 112.5%;
+	color: #545454;
 	font-style: italic;
+	margin-left: 5px;
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-bottom: 0px;
 }
 
-#intro {
-
+.photo_credit {
+	font-style: italic;
+	font-size: 80%;
+	color: #545454;
+	margin-left: 5px;
+	margin-top: 0px;
+	padding-top: 0px;
 }
+
+#content {
+	max-width: 800px;
+	margin: 30px auto 0px auto;
+}
+
+
 
 #viz1 {
 	margin-top: 30px;
@@ -57,11 +80,7 @@ a:visited {
 }
 
 #homes_viz {
-	width: 800px;
-    height: 600px;
-    border: 2px solid black;
-    margin: 0 auto;
-    padding: 10px;
+	
 }
 
 #body {
@@ -94,16 +113,19 @@ a:visited {
 h1, h2, h3 {
 	font-family: "PT Serif", "Calisto MT", serif;
 	font-weight: bold;
+	margin-top: 5px;
+	margin-left: 5px;
 }
 
-p{
+p {
 	font-size: 100%;
 	line-height: 1.4em;
 }
-
+ 
 h1{
 	font-size: 300%;
-	color: #17367F;
+	color: #FFFFFF;
+	text-shadow: 2px 2px 0px #000000;
 	margin-bottom: 0px;
 }
 
@@ -115,3 +137,18 @@ h2{
 h3{
 	font-size: 112.5%;
 	color: #08849F;
+
+	/* LINKS */
+
+a:link {
+	text-decoration: none;
+	color: #17367F;
+}
+
+a:hover {
+	color: #2E6CFF;
+}
+
+a:visited {
+	color: gray;
+}
