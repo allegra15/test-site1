@@ -95,18 +95,49 @@ header {
 	float: right;
 	margin-top: 10px;
 	margin-left: 20px;
-	margin-right: -120px;
+	margin-right: -140px;
 	margin-bottom: 10px;
-	
-}
+	}
 
 #box2 {
 	float: left;
 	margin-top: 10px;
 	margin-right: 20px;
-	margin-left: -120px;
-	margin-bottom: 10px;
+	margin-left: -140px;
+	margin-bottom: 10px;	
 }
+
+footer {
+	width: 1080px;
+	height:80px;
+	background-color: #076E67;
+	margin: 20px auto;
+}
+
+.footer{
+	color: #FFFFFF;
+	font-family: "PT Sans", Helvetica, sans-serif;
+	font-size: 80%;
+	font-style: italic;
+}
+
+#about{
+	float: left;
+	width: 700px;
+	padding-top: 0px;
+	padding-left: 10px;
+	text-shadow: 1px 1px 0px #000000;
+	
+}
+
+.copyright{
+	float: right;
+	width: 225px;
+	position: relative;
+	top: 45px;
+	font-style: normal;
+}
+
 
 /* HEADING and LINK STYLES */
 
@@ -152,7 +183,13 @@ a:visited {
 }
 
 a:hover {
-	color:#1666A6;
+	color:#1A77C2;
 	text-decoration: underline;
+}
+
+/* CHANGE COLOR OF LINK IN FOOTER*/
+
+a.cuny{
+	color: #E85D00;
 }
 
