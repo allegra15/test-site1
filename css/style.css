@@ -2,7 +2,7 @@
 Site  name v1
 */
 
-body {font-family: "PT Sans", Helvetica, sans-serif;
+body {font-family: "PT Serif", "Calisto MT", serif;
 }
 
 
@@ -15,7 +15,7 @@ header {
 	position: relative;
 	width: 1080px;
 	height: 531px;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 }
 
 #header_image {
@@ -35,35 +35,50 @@ header {
 }
 
 .subhead{ 
+	font-family: "PT Sans", Helvetica, sans-serif;
 	font-size: 150%;
 	font-weight: normal;
 	margin-top: 0px;
 	position: relative;
-	left: 100px;
+	left: 135px;
 }
 
 .byline {
+	font-family: "PT Sans", Helvetica, sans-serif;
 	font-size: 112.5%;
-	color: #545454;
-	font-style: italic;
-	margin-left: 5px;
-	margin-top: 0px;
-	padding-top: 0px;
-	margin-bottom: 0px;
+	color: #D8D8D8 ;
+	text-shadow: 2px 2px 0px #000000;
+	margin-top: 400px;
 }
 
 .photo_credit {
 	font-style: italic;
-	font-size: 80%;
+	font-size: 70%;
 	color: #545454;
-	margin-left: 5px;
+	margin-left: 0px;
 	margin-top: 0px;
 	padding-top: 0px;
 }
 
+.graf1 {
+	font-family: "PT Sans", Helvetica, sans-serif;
+	font-size: 150%;
+}
+
+.intro {
+	font-weight: bold;
+	color: #076E67;
+}
+
+#photo1 {
+	float: right;
+	margin-top: 5px;
+}
+
+
 #content {
 	max-width: 800px;
-	margin: 30px auto 0px auto;
+	margin: 60px auto 0px auto;
 }
 
 
@@ -73,9 +88,6 @@ header {
 }
 
 .viz_head {
-	font-weight: bold;
-	font-size: 112.5%;
-	color: #08849F;
 	margin-bottom: 2px;
 }
 
@@ -89,32 +101,26 @@ header {
 }
 
 #box1 {
-	width: 300px;
-	height: 300px;
-	border: 2px solid black;
 	float: right;
-	margin-left: 10px;
-	margin-right: 0px;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: -120px;
 	margin-bottom: 10px;
 	
 }
 
 #box2 {
-	width: 400px;
-	height: 300px;
-	border: 2px solid black;
 	float: left;
-	margin-right: 10px;
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-left: -120px;
 	margin-bottom: 10px;
 }
 
 /* HEADING STYLES */
 
 h1, h2, h3 {
-	font-family: "PT Serif", "Calisto MT", serif;
 	font-weight: bold;
-	margin-top: 5px;
-	margin-left: 5px;
 }
 
 p {
@@ -123,20 +129,26 @@ p {
 }
  
 h1{
+	font-family: "PT Serif", "Calisto MT", serif;
 	font-size: 300%;
 	color: #FFFFFF;
 	text-shadow: 2px 2px 0px #000000;
+	margin-top: 5px;
 	margin-bottom: 0px;
 }
 
 h2{
+	font-family: "PT Sans", Helvetica, sans-serif;
 	font-size: 150%;
-	color: #08849F;
+	color: #076E67;
+	margin-top: 30px;
+	margin-bottom: 10px;
 }
 
 h3{
+	font-family: "PT Sans", Helvetica, sans-serif;
 	font-size: 112.5%;
-	color: #08849F;
+	color: #076E67;
 
 	/* LINKS */
 
