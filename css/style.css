@@ -76,8 +76,6 @@ header {
 	margin: 60px auto 0px auto;
 }
 
-
-
 #viz1 {
 	margin-top: 30px;
 }
@@ -85,11 +83,6 @@ header {
 .viz_head {
 	margin-bottom: 2px;
 }
-
-#homes_viz {
-	
-}
-
 
 #box1 {
 	float: right;
@@ -127,12 +120,11 @@ footer {
 	padding-top: 0px;
 	padding-left: 10px;
 	text-shadow: 1px 1px 0px #000000;
-	
 }
 
 .copyright{
 	float: right;
-	width: 225px;
+	width: 255px;
 	position: relative;
 	top: 45px;
 	font-style: normal;
@@ -172,6 +164,7 @@ h3{
 	font-size: 112.5%;
 	color: #076E67;
 }
+
 
 a:link{
 	text-decoration: none;
