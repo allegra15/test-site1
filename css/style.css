@@ -182,7 +182,21 @@ a:hover {
 
 /* CHANGE COLOR OF LINK IN FOOTER*/
 
-a.cuny{
+/* a.cuny{
 	color: #E85D00;
+}*/
+
+.footer a:link {
+	color: #E85D00;
+	text-decoration: none;
+}
+
+.footer a:visited {
+	color:#BABABA;
+}
+
+.footer a:hover {
+	color:#1A77C2;
+	text-decoration: underline;
 }
 
